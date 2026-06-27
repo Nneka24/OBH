@@ -27,21 +27,26 @@
 
   /* ---------- HEADER ---------- */
   header {
-    background: var(--obh-blue);
+    background: #ffffff;
     padding: 14px 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
     flex-wrap: wrap;
+    border-bottom: 3px solid var(--obh-blue);
   }
-  header img { height: 36px; display: block; }
-  .header-logos { display: flex; align-items: center; gap: 10px; }
+  header img { height: 32px; display: block; }
+  .header-logos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
   .day-toggle {
     display: flex;
     align-items: center;
     gap: 8px;
-    background: rgba(255,255,255,0.12);
+    background: var(--obh-blue);
     padding: 6px 10px;
     border-radius: 20px;
   }
